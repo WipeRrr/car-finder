@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/car-finder/static/css/main.a1c261b2.css",
+    "main.js": "/car-finder/static/js/main.29b35858.js",
+    "index.html": "/car-finder/index.html",
+    "main.a1c261b2.css.map": "/car-finder/static/css/main.a1c261b2.css.map",
+    "main.29b35858.js.map": "/car-finder/static/js/main.29b35858.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1c261b2.css",
+    "static/js/main.29b35858.js"
+  ]
+}
