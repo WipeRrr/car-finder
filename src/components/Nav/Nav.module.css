@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+
+  text-align: center;
+  background-color: #3470ff;
+   color: var(--white-color); 
+}
+
+.find {
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+
+   color: var(--white-color); 
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.active {
+  color: yellow;
+}
