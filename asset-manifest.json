@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/car-finder/static/css/main.ef4a6703.css",
-    "main.js": "/car-finder/static/js/main.8c67ca12.js",
+    "main.css": "/car-finder/static/css/main.5a39f2c9.css",
+    "main.js": "/car-finder/static/js/main.07147aab.js",
     "static/js/859.6a797d70.chunk.js": "/car-finder/static/js/859.6a797d70.chunk.js",
     "static/js/77.a64717ec.chunk.js": "/car-finder/static/js/77.a64717ec.chunk.js",
     "static/js/474.9daf3e1d.chunk.js": "/car-finder/static/js/474.9daf3e1d.chunk.js",
@@ -10,14 +10,14 @@
     "static/media/Manrope-Regular.ttf": "/car-finder/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
     "static/media/Manrope-Bold.ttf": "/car-finder/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
     "index.html": "/car-finder/index.html",
-    "main.ef4a6703.css.map": "/car-finder/static/css/main.ef4a6703.css.map",
-    "main.8c67ca12.js.map": "/car-finder/static/js/main.8c67ca12.js.map",
+    "main.5a39f2c9.css.map": "/car-finder/static/css/main.5a39f2c9.css.map",
+    "main.07147aab.js.map": "/car-finder/static/js/main.07147aab.js.map",
     "859.6a797d70.chunk.js.map": "/car-finder/static/js/859.6a797d70.chunk.js.map",
     "77.a64717ec.chunk.js.map": "/car-finder/static/js/77.a64717ec.chunk.js.map",
     "474.9daf3e1d.chunk.js.map": "/car-finder/static/js/474.9daf3e1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4a6703.css",
-    "static/js/main.8c67ca12.js"
+    "static/css/main.5a39f2c9.css",
+    "static/js/main.07147aab.js"
   ]
 }
