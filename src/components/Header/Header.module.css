@@ -1,0 +1,8 @@
+.header {
+
+      display:flex;
+      position: fixed;
+      align-items: center;
+      width: auto;
+      background-color:blue;
+}
