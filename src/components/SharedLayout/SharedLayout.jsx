@@ -3,10 +3,8 @@ import { Suspense } from 'react';
 import Header from 'components/Header';
 // import Spinner from 'utils/Spinner';
 
-
 export default function SharedLayout() {
   return (
-
     <>
       <Header />
       <main>
@@ -15,6 +13,5 @@ export default function SharedLayout() {
         </Suspense>
       </main>
     </>
-  
   );
 }
