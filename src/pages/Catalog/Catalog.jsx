@@ -1,17 +1,14 @@
+import { useEffect, useState } from 'react';
+import { getCars } from 'services/API';
+import CarsList from 'components/CarsList';
 export default function Catalog() {
-    return (
-      <div>
-        <h2>Lib Page</h2>
-        <ul>
-          <li>car1</li>
-          <li>car1</li>
-          <li>car1</li>
-          <li>car1</li>
-          <li>car1</li>
-          <li>car1</li>
-          <li>car1</li>
-          <li>car1</li>
-        </ul>
-      </div>
-    );
+ const [cars, SetCars] = useState([]);
+
+  useEffect(() => {
+    getCars().then(SetCars);
+  }, []);
+
+  // console.log(cars)
+
+  return <CarsList cars={cars}></CarsList>;
 }

@@ -2,7 +2,7 @@
 @import '../src/fonts/fonts.css';
 @import '../src/reset.css';
 @import '../src/variables.css';
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat:wght@400;600&display=swap'); */
 
 body {
   margin: 0;
