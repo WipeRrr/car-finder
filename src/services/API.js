@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 axios.defaults.baseURL = 'https://650739353a38daf4803f45ac.mockapi.io/';
-// const BASE_KEY = 'f75ad82028de22e80377d607e7f657c6';
+
 
 export const getCars = async () => {
     const  {data}  = await axios.get(`/cars`);
