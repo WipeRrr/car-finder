@@ -174,7 +174,7 @@
 .main_button {
   all: unset;
   align-items: center;
-  background-color: #0b44cd;
+   background: var(--blue-white-color);
   border-radius: 12px;
   box-sizing: border-box;
   display: flex;
@@ -186,7 +186,7 @@
 }
 .main_button:hover {
   cursor: pointer;
-  background: #3470ff;
+  background-color:var(--blue-color);
 }
 .text {
   color: var(--white-color);

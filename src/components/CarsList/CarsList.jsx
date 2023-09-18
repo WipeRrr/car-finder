@@ -1,8 +1,13 @@
+import { useState } from 'react';
 import css from './CarsList.module.css';
 import getCity from 'utils/getCity';
 import getCountry from 'utils/getCountry';
-
+import Modal from 'components/Modal';
+import CarModal from 'components/CarModal/CarModal';
+import Button from 'components/Button';
 export default function CarsList({ car }) {
+  const [showModal, setShowModal] = useState(false);
+  const toggleModal = () => setShowModal(!showModal);
 
   const {
     id,
@@ -35,7 +40,9 @@ export default function CarsList({ car }) {
 
         <div className={css.info}>
           <p>
-            {make} <span className={css.model}>{model}</span>, {year}
+            {make}
+            {make.length <= 5 && <span className={css.model}>{' '}{model}</span>},{' '}
+            {year}
           </p>
           <p>{rentalPrice}</p>
         </div>
@@ -44,16 +51,20 @@ export default function CarsList({ car }) {
             <span>{city} | </span>
             <span>{country} | </span>
             <span>{rentalCompany} | </span>
-            {/* <span>{type} | </span> */}
           </p>
 
           <p>
             <span>{type} | </span>
             <span>{model} | </span>
             <span>{id} | </span>
-            {/* <span>{type} | </span> */}
           </p>
         </div>
+        <Button text={'Learn more'} onClick={toggleModal} />
+        {showModal && (
+          <Modal onClose={toggleModal}>
+            <CarModal advert={car} />
+          </Modal>
+        )}
       </div>
     </li>
   );
