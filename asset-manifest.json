@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/car-finder/static/css/main.ea08d01d.css",
-    "main.js": "/car-finder/static/js/main.aa5f849b.js",
+    "main.js": "/car-finder/static/js/main.0a8e19fc.js",
     "static/js/859.6a797d70.chunk.js": "/car-finder/static/js/859.6a797d70.chunk.js",
-    "static/css/804.49558f4f.chunk.css": "/car-finder/static/css/804.49558f4f.chunk.css",
-    "static/js/804.8b544a20.chunk.js": "/car-finder/static/js/804.8b544a20.chunk.js",
+    "static/css/666.a3ada2bc.chunk.css": "/car-finder/static/css/666.a3ada2bc.chunk.css",
+    "static/js/666.2eb618fb.chunk.js": "/car-finder/static/js/666.2eb618fb.chunk.js",
     "static/js/474.9daf3e1d.chunk.js": "/car-finder/static/js/474.9daf3e1d.chunk.js",
     "static/js/279.7532008e.chunk.js": "/car-finder/static/js/279.7532008e.chunk.js",
+    "static/media/sprite.svg": "/car-finder/static/media/sprite.0805810a6206a839c09d7b1ef75120f0.svg",
     "index.html": "/car-finder/index.html",
     "main.ea08d01d.css.map": "/car-finder/static/css/main.ea08d01d.css.map",
-    "main.aa5f849b.js.map": "/car-finder/static/js/main.aa5f849b.js.map",
+    "main.0a8e19fc.js.map": "/car-finder/static/js/main.0a8e19fc.js.map",
     "859.6a797d70.chunk.js.map": "/car-finder/static/js/859.6a797d70.chunk.js.map",
-    "804.49558f4f.chunk.css.map": "/car-finder/static/css/804.49558f4f.chunk.css.map",
-    "804.8b544a20.chunk.js.map": "/car-finder/static/js/804.8b544a20.chunk.js.map",
+    "666.a3ada2bc.chunk.css.map": "/car-finder/static/css/666.a3ada2bc.chunk.css.map",
+    "666.2eb618fb.chunk.js.map": "/car-finder/static/js/666.2eb618fb.chunk.js.map",
     "474.9daf3e1d.chunk.js.map": "/car-finder/static/js/474.9daf3e1d.chunk.js.map",
     "279.7532008e.chunk.js.map": "/car-finder/static/js/279.7532008e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea08d01d.css",
-    "static/js/main.aa5f849b.js"
+    "static/js/main.0a8e19fc.js"
   ]
 }
