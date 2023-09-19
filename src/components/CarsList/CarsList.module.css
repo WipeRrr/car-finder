@@ -5,7 +5,7 @@
   width: 274px;
   height: 426px;
   flex-direction: column;
-
+position: relative;
 }
 
 .car_item {
@@ -46,4 +46,28 @@
   line-height: calc(18/12);
   margin-top: 8px;
   margin-bottom: 28px;
+}
+
+.btn_favorite{
+  position: absolute;
+  right:14px;
+  top: 14px;
+  border: 0;
+  background-color:transparent ;
+  width: 18px;
+  height: 18px;
+  stroke: var(--white-color);
+ fill:  transparent;
+}
+
+.btn_favorite:hover,
+btn_favorite:focus{
+  cursor: pointer;
+}
+
+
+.Btn_add_favorite{
+  
+  stroke: transparent;
+ fill:var(--blue-white-color);
 }
