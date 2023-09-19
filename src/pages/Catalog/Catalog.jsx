@@ -8,7 +8,6 @@ export default function Catalog() {
   const [page, SetPage] = useState(1);
 
   useEffect(() => {
-   
     getCars(page).then(newCars => {
       SetCars(prevCars => [...prevCars, ...newCars]);
     });

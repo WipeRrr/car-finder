@@ -1,22 +1,19 @@
-.home{
-    height: 50vw;
-    width: 100%;
-    background-image: url('../../images/BMW.jpg');
-    background-size: cover;
-   
+.home {
+  height: 50vw;
+  width: 100%;
+  background-image: url('../../images/BMW.jpg');
+  background-size: cover;
 }
 
-.title{
-    position: relative;
-    font-size: 40px;
-   font-weight: 500;
-    color:var(--blue-color);
-    top:100px;
-    left:50px;
+.title {
+  position: relative;
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--blue-color);
+  top: 100px;
+  left: 50px;
 }
 
-.title:hover{
-    color:yellow;
+.title:hover {
+  color: yellow;
 }
-
-

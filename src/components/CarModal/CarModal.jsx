@@ -1,9 +1,8 @@
 import getCity from 'utils/getCity';
 import getCountry from 'utils/getCountry';
- import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
-import css from "./CarModal.module.css"
-
+import css from './CarModal.module.css';
 
 export default function CarModal({ advert }) {
   if (!advert) {
@@ -20,10 +19,9 @@ export default function CarModal({ advert }) {
     description,
     fuelConsumption,
     engineSize,
-    // accessories,
-    // functionalities,
+
     rentalPrice,
-    // rentalCompany,
+
     address,
     rentalConditions,
     mileage,

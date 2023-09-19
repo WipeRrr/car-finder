@@ -1,13 +1,13 @@
 .nav {
   display: flex;
   gap: 100px;
-  margin-left: 900px;
+  align-items: center;
 
 }
 
 .find {
   font-family: Manrope;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

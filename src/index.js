@@ -11,6 +11,6 @@ root.render(
     <BrowserRouter basename="car-finder">
       <App />
     </BrowserRouter>
-  //  </React.StrictMode>
+    // </React.StrictMode>
 );
 

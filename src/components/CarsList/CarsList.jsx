@@ -11,40 +11,41 @@ export default function CarsList({ car }) {
   const [showModal, setShowModal] = useState(false);
   const toggleModal = () => setShowModal(!showModal);
 
-
   const [favoriteCars, setFavoriteCars] = useState(() => {
     const savedFavorites =
       JSON.parse(localStorage.getItem('favoriteCars')) || [];
     return savedFavorites;
   });
 
-
   const isFavorite = favoriteCars.some(
     favoriteCar => favoriteCar.id === car.id
   );
 
-
   const toggleFavorite = () => {
+    const carId = car.id;
+    const savedFavorites =
+      JSON.parse(localStorage.getItem('favoriteCars')) || [];
+
+    const isFavorite = savedFavorites.some(
+      favoriteCar => favoriteCar.id === carId
+    );
+
+    let updatedFavorites;
+
     if (isFavorite) {
-
-      const updatedFavorites = favoriteCars.filter(
-        favoriteCar => favoriteCar.id !== car.id
+      updatedFavorites = savedFavorites.filter(
+        favoriteCar => favoriteCar.id !== carId
       );
-
-      localStorage.setItem('favoriteCars', JSON.stringify(updatedFavorites));
-
-      setFavoriteCars(updatedFavorites);
     } else {
-
-      const updatedFavorites = [...favoriteCars, car];
-
-      localStorage.setItem('favoriteCars', JSON.stringify(updatedFavorites));
-
-      setFavoriteCars(updatedFavorites);
+      updatedFavorites = [...savedFavorites, car];
     }
+
+    localStorage.setItem('favoriteCars', JSON.stringify(updatedFavorites));
+
+    setFavoriteCars(updatedFavorites);
   };
 
-
+  
   const {
     id,
     year,
