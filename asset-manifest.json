@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/car-finder/static/css/main.ea08d01d.css",
+    "main.css": "/car-finder/static/css/main.4bf9348c.css",
     "main.js": "/car-finder/static/js/main.a4e75bdd.js",
     "static/css/171.3e7137aa.chunk.css": "/car-finder/static/css/171.3e7137aa.chunk.css",
     "static/js/171.fc3896da.chunk.js": "/car-finder/static/js/171.fc3896da.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/BMW.jpg": "/car-finder/static/media/BMW.4c9ffa53b1496f153f5d.jpg",
     "static/media/sprite.svg": "/car-finder/static/media/sprite.0805810a6206a839c09d7b1ef75120f0.svg",
     "index.html": "/car-finder/index.html",
-    "main.ea08d01d.css.map": "/car-finder/static/css/main.ea08d01d.css.map",
+    "main.4bf9348c.css.map": "/car-finder/static/css/main.4bf9348c.css.map",
     "main.a4e75bdd.js.map": "/car-finder/static/js/main.a4e75bdd.js.map",
     "171.3e7137aa.chunk.css.map": "/car-finder/static/css/171.3e7137aa.chunk.css.map",
     "171.fc3896da.chunk.js.map": "/car-finder/static/js/171.fc3896da.chunk.js.map",
@@ -21,7 +21,7 @@
     "279.7532008e.chunk.js.map": "/car-finder/static/js/279.7532008e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea08d01d.css",
+    "static/css/main.4bf9348c.css",
     "static/js/main.a4e75bdd.js"
   ]
 }
