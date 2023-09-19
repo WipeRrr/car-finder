@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Car Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Car Finder Screenshot](./screen.PNG)
 
-## Available Scripts
+Car Finder is a web application that allows users to search for cars by various criteria and view detailed information about them. Whether you're looking to buy a new car or just exploring the options available, Car Finder can help you find the right car for your needs.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Search by Make and Model:** Easily search for cars by specifying the make and model you're interested in.
+- **View Car Details:** Get comprehensive information about each car, including specifications, pricing, and more.
+- **Save Favorites:** Save your favorite car listings for later reference.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get started with Car Finder, simply visit the [Car Finder website](https://wiperrr.github.io/car-finder/) and start searching for cars. You can use the search bar to specify your criteria and browse the results. If you find a car you like, you can click on it to view more details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+Car Finder is built using the following technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React:** A JavaScript library for building user interfaces.
+- **React Router:** For handling routing within the application.
+- **CSS Modules:** For styling components.
+- **GitHub Pages:** Hosting the website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you'd like to contribute to Car Finder, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/wiperrr/car-finder). We welcome contributions and feedback from the community.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Car data is provided by [CarAPI](https://mockapi.io/).
+- This project was created as a learning exercise and for demonstration purposes.
