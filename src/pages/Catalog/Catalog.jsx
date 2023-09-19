@@ -9,8 +9,8 @@ export default function Catalog() {
 
   useEffect(() => {
    
-    getCars(page).then(cars => {
-      SetCars(prevCars => [...prevCars, ...cars]);
+    getCars(page).then(newCars => {
+      SetCars(prevCars => [...prevCars, ...newCars]);
     });
   }, [page]);
 

@@ -13,5 +13,15 @@ export const getCars = async (page) => {
   }
 };
 
+export const getAllCars = async () => {
+  try {
+    const path = `/adverts`;
+    const res = await axios.get(path);
+    return res.data;
+  } catch (e) {
+    return console.log(e.message);
+  }
+};
+
 
 

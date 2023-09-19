@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import css from './CarsList.module.css';
 import getCity from 'utils/getCity';
 import getCountry from 'utils/getCountry';
@@ -6,9 +6,44 @@ import Modal from 'components/Modal';
 import CarModal from 'components/CarModal/CarModal';
 import Button from 'components/Button';
 import heart from '../../images/sprite.svg';
+
 export default function CarsList({ car }) {
   const [showModal, setShowModal] = useState(false);
   const toggleModal = () => setShowModal(!showModal);
+
+
+  const [favoriteCars, setFavoriteCars] = useState(() => {
+    const savedFavorites =
+      JSON.parse(localStorage.getItem('favoriteCars')) || [];
+    return savedFavorites;
+  });
+
+
+  const isFavorite = favoriteCars.some(
+    favoriteCar => favoriteCar.id === car.id
+  );
+
+
+  const toggleFavorite = () => {
+    if (isFavorite) {
+
+      const updatedFavorites = favoriteCars.filter(
+        favoriteCar => favoriteCar.id !== car.id
+      );
+
+      localStorage.setItem('favoriteCars', JSON.stringify(updatedFavorites));
+
+      setFavoriteCars(updatedFavorites);
+    } else {
+
+      const updatedFavorites = [...favoriteCars, car];
+
+      localStorage.setItem('favoriteCars', JSON.stringify(updatedFavorites));
+
+      setFavoriteCars(updatedFavorites);
+    }
+  };
+
 
   const {
     id,
@@ -17,16 +52,9 @@ export default function CarsList({ car }) {
     model,
     type,
     img,
-    // description,
-    // fuelConsumption,
-    // engineSize,
-    // accessories,
-    // functionalities,
     rentalPrice,
     rentalCompany,
     address,
-    // rentalConditions,
-    // mileage,
   } = car;
 
   const country = getCountry(address);
@@ -38,8 +66,16 @@ export default function CarsList({ car }) {
         <div>
           <img className={css.car_img} src={img} alt="car" />
         </div>
-        <button className={css.btn_favorite} type="button">
-          <svg className={css.favorite_svg} width="18" height="18">
+        <button
+          className={css.btn_favorite}
+          type="button"
+          onClick={toggleFavorite}
+        >
+          <svg
+            className={`${css.favorite_svg} ${isFavorite ? css.favorite : ''}`}
+            width="18"
+            height="18"
+          >
             <use href={heart + '#heart'}></use>
           </svg>
         </button>

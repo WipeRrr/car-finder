@@ -3,7 +3,7 @@ import css from "./Filter.module.css";
 
 export const Filter = () => {
   return (
-    <div className={css.filter}>
+    <form className={css.filter}>
       <div className={css.div}>
         <div className={css.brand}>
           <div className={css.text_wrapper}>Car brand</div>
@@ -17,7 +17,7 @@ export const Filter = () => {
           </div>
         </div>
         <div className={css.mileage}>
-                  <div className={css.text_wrapper}>Price/ 1 hour</div>
+          <div className={css.text_wrapper}>Price/ 1 hour</div>
           <div className={css.select_2}>
             <div className={css.text_wrapper_2}>To</div>
             <img
@@ -40,9 +40,9 @@ export const Filter = () => {
           </div>
         </div>
       </div>
-      <button className={css.main_button} type='button'>
+      <button className={css.main_button} type="button">
         <div className={css.text}>Search</div>
       </button>
-    </div>
+    </form>
   );
 };
