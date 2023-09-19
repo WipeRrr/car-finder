@@ -1,21 +1,6 @@
-// import { Link } from 'react-router-dom';
 import getCity from 'utils/getCity';
 import getCountry from 'utils/getCountry';
  import { Link } from 'react-router-dom'; 
-// import {
-//   Container,
-//   ContainerInfo,
-//   ImageAuto,
-//   TitleAuto,
-//   Model,
-//   InfoAuto,
-//   Description,
-//     InfoTitle,
-//     RentalConditionsList,
-//     ItemValue,
-//     RentalConditionsListItem, 
-//   LinkPhone
-// } from './AdvertModal.styled';
 
 import css from "./CarModal.module.css"
 
